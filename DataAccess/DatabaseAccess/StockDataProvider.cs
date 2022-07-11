@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.DatabaseAccess
 {
+
     public class StockDataProvider
     {
         public StockDataProvider() { }

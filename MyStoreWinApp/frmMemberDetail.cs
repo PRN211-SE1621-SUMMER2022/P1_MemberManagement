@@ -25,6 +25,7 @@ namespace MyStoreWinApp
 
         private void frmMemberDetail_Load(object sender, EventArgs e)
         {
+
             txtMemberID.Enabled = !InsertOrUpdate;
             if (InsertOrUpdate == true)
             {

@@ -26,6 +26,8 @@ namespace DataAccess.DatabaseAccess
                 }
             }
         }
+
+
         public IEnumerable<Member> GetMemberList()
         {
             IDataReader dataReader = null;

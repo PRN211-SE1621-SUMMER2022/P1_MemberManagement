@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿
 using MemberObject;
-using System.Threading.Tasks;
 using DataAccess.DatabaseAccess;
 
 namespace DataAccess.Repository
 {
+
     public class MemberRepository : IMemberRepository
     {
         public void DeleteMember(int memberId) => MemberDAO.Instance.Remove(memberId);
@@ -16,7 +13,7 @@ namespace DataAccess.Repository
         public Member GetMemberByID(int memberId) => MemberDAO.Instance.GetMemberByID(memberId);
 
 
-        public IEnumerable<Member> GetMembers() => MemberDAO.Instance.GetMemberList();
+        public  IEnumerable<Member> GetMembers() => MemberDAO.Instance.GetMemberList();
 
 
         public void InsertMember(Member member) => MemberDAO.Instance.AddNew(member);

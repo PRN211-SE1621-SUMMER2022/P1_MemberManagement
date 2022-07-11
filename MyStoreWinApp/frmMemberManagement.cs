@@ -134,6 +134,7 @@ namespace MyStoreWinApp
 
         private void frmMemberManagement_Load(object sender, EventArgs e)
         {
+
             if (AdminOrUser == false)
             {
 
