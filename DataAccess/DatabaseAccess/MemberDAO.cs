@@ -6,6 +6,7 @@ using Microsoft.Data.SqlClient;
 namespace DataAccess.DatabaseAccess
 
 {
+
     public class MemberDAO : BaseDAL
     {
         private static MemberDAO instance = null;
